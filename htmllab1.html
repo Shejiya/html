@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+  	<title>HTML LAB 1</title>
+  </head>
+  <body>
+    
+    <h1><b>REGISTRATION</b></h1>
+    <p>Please fill in the below details:</p><br>
+  	 
+  	<form action="" method="get" target="_blank" >
+
+  		<label for="name"><b>Username:</b></label><br />
+  	    <input type="text" id="name" name="fname" value="" size="30" maxlength="25" placeholder="eg:Shejiya Shereef" required><br><br>
+
+  	    <label for="email"><b>Email:</b></label><br />
+  	    <input type="email" id="email" name="email" value="test@example.com" size="30" maxlength="50" autofocus required><br><br>
+
+  	    <label for="pswd"><b>Password:</b></label><br />
+  	    <input type="password" id="pswd" name="password" value="" minlength="6" maxlenth="16" size="30"HTMLplaceholder="atleast 6 characters" required ><br><br>
+  	  
+           
+        <label for="category"><b>Choose a Category:</b></label>
+        <select id="category" name="category" required>
+      	  <option value="Student">Student</option>
+      	  <option value="Employee">Employee</option>
+      	  <option value="Freelancer" selected>Freelancer</option>
+        </select><br><br>
+
+        <label for="date"><b>Event Date:</b></label>
+        <input type="date" id="date" name="event_date" value="" placeholder="dd-mm-yyyy" required><br><br>  
+
+        <label for="radio"><b>Tickets:</b></label><br>
+        <input type="radio" id="radio" name="ticket_no" value="1 Ticket">1 Ticket
+        <input type="radio" id="radio" name="ticket_no" value="2 Ticket" checked>2 Tickets
+        <input type="radio" id="radio" name="ticket_no" value="3 Ticket">3 Tickets<br><br>
+       
+        <label for="payment"><b>Mode of payment:</b></label>
+        <input type="checkbox" id="payment" name="payment" value="Mode_of_payment" checked>Online Payment<br><br>
+
+        <b>Notes:<b><br>
+        	<textarea rows="5" cols="50" name="notes" placeholder="Add a descriptiom"></textarea><br><br>
+
+        <input type="submit" name="submit" value="Submit">
+        <input type="reset" name="reset" value="Reset"><br /><br>
+
+  	</form>
+
+  </body>
+</html>
